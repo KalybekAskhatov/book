@@ -1,0 +1,115 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #6d09f4,#cc00a9,#dc1571);
+}
+
+h1 {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+table{
+  background-color: rgba(253, 91, 32, 0.42);
+}
+tbody{
+  background-color: rgba(16, 6, 111, 0.55);
+}
+
+.container{
+  max-width: 1058px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: Arial;
+}
+
+.container:first-child {
+  text-align: center;
+}
+
+.auth-form {
+  display: inline-block;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #b11ff0;
+  border-radius: 4px;
+  text-align: right;
+}
+.img1 {
+  width: 50px;
+  height: 50px;
+}
+.field {
+  margin-bottom: 1rem;
+}
+
+.field:last-child{
+  margin-bottom: 0;
+}
+
+.field>input{
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.field:last-child>button{
+  padding: 10px;
+  color: #fff;
+  background: rgb(135, 112, 216);
+  border: 0;
+  border-radius: 4px;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.field:last-child>button:hover{
+  background-color: rgb(45, 214, 79);
+}
+
+.field:last-child{
+  text-align: center;
+}
+
+#number{
+  width: 30%px;
+}
+
+th{
+  width: 600px;
+  border: solid 1px white;
+}
+
+.task-list > tr{
+  text-align: center;
+}
+.main-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  text-align: end;
+}
